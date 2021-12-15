@@ -1,0 +1,56 @@
+body{
+    background-image: url("./chuttersnap-qoFukU0sOio-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+ 
+}
+.container{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    color: white;
+}
+.card{
+ 
+    border-radius: 0px;
+
+    padding: 40px;
+    background: rgba(0, 0, 255, 0.192);
+}
+
+
+.card h1{
+    font-size: 80px;
+    padding: 20px;
+  color: yellow;
+}
+.card p{
+    font-size: 30px;
+    line-height: 40px;
+}
+.card #day{
+    color:rgba(255, 255, 0, 0.699);
+    font-weight: bold;
+    font-size: 40px;
+}
+.card .card-header{
+    font-size: 40px;
+    border: none;
+    background: none;
+}
+@media(max-width:450px){
+    .container{
+        margin-bottom: 10vh;
+    }
+    .card h1{
+        font-size: 60px;
+        padding: 0px;
+    }
+    .card p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .card .card-header{
+        font-size: 25px;
+    
+    }
+}
